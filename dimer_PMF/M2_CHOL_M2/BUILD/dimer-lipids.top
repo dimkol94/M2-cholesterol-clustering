@@ -1,0 +1,18 @@
+#include "martini_v2.2.itp"
+#include "Protein_A+Protein_B+Protein_C+Protein_D.itp"
+#include "martini_v2.0_ions.itp"
+#include "martini_v2.0_lipids_5beadPOPC.itp"
+
+[ system ]
+; name
+Protein in INSANE! Membrane UpperLeaflet>POPC:CHOL=4.0:1.0 LowerLeaflet>POPC:CHOL=4.0:1.0
+
+[ molecules ]
+; name  number
+Protein_A+Protein_B+Protein_C+Protein_D 2
+POPC 433
+CHOL 113
+W           8143
+NA+              8
+NA+ 78
+CL- 102
